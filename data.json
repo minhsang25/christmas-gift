@@ -2,27 +2,9 @@
   "people": [
     {
       "id": "123451211",
-      "name": "chị Hải Yến",
-      "imagePath": "assets/images/haiyen.png",
+      "name": "Ly Thị Ngô",
+      "imagePath": "assets/images/lyngo.png",
       "pdfPath": "assets/pdfs/mz166.pdf"
-    },
-    {
-      "id": "123451212",
-      "name": "chị Yến Nhi",
-      "imagePath": "assets/images/yennhi.png",
-      "pdfPath": "assets/pdfs/mz164.pdf"
-    },
-    {
-      "id": "123451213",
-      "name": "chị Duy Đông",
-      "imagePath": "assets/images/duydong.png",
-      "pdfPath": "assets/pdfs/mz176.pdf"
-    },
-    {
-      "id": "123451214",
-      "name": "chị Tuệ Mẫn",
-      "imagePath": "assets/images/tueman.png",
-      "pdfPath": "assets/pdfs/mz164.pdf"
     }
   ]
 }
