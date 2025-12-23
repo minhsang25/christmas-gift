@@ -3,35 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chúc Mừng Sinh Nhật</title>
+    <title>Merry Christmas</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="stars"></div>
 
-    <h1 class="title">HAPPY<br />BIRTHDAY</h1>
-
+    <h1 class="title">MERRY<br />CHRISTMAS</h1>
+    <!-- Mũ Noel đội cho chữ MERRY -->
     <img
       id="person-photo"
       class="photo"
-      src="assets/images/anh-tot-nghiep.jpg"
-      alt="Tốt nghiệp"
+      src="assets/images/quan.png"
+      alt="Quân mập"
     />
 
     <div class="greeting-bubble">
-      Thương gửi<br /><span id="person-name">Ly Thị Ngô</span>
+      Dear<br /><span id="person-name">Quân mập</span>
     </div>
 
     <!-- Ribbon xanh – chạy từ phải sang trái (vô tận) -->
     <div class="fixed-ribbon blue">
       <div class="marquee-wrapper">
         <div class="marquee-content">
-          HAPPY BIRTHDAY • HAPPY BIRTHDAY • HAPPY BIRTHDAY • HAPPY GRADUATION •
-          HAPPY BIRTHDAY • HAPPY BIRTHDAY •
+          Merry Christmas • Merry Christmas • Merry Christmas • Merry Christmas
+          • Merry Christmas • Merry Christmas •
         </div>
         <div class="marquee-content">
-          HAPPY BIRTHDAY • HAPPY BIRTHDAY • HAPPY BIRTHDAY • HAPPY GRADUATION •
-          HAPPY BIRTHDAY • HAPPY BIRTHDAY •
+          Merry Christmas • Merry Christmas • Merry Christmas • Merry Christmas
+          • Merry Christmas • Merry Christmas •
         </div>
       </div>
     </div>
@@ -40,17 +40,43 @@
     <div class="fixed-ribbon yellow">
       <div class="marquee-wrapper reverse">
         <div class="marquee-content">
-          HAPPY BIRTHDAY • HAPPY BIRTHDAY • HAPPY BIRTHDAY • HAPPY GRADUATION •
-          HAPPY BIRTHDAY • HAPPY BIRTHDAY •
+          Merry Christmas • Merry Christmas • Merry Christmas • Merry Christmas
+          • Merry Christmas • Merry Christmas •
         </div>
         <div class="marquee-content">
-          HAPPY BIRTHDAY • HAPPY BIRTHDAY • HAPPY BIRTHDAY • HAPPY GRADUATION •
-          HAPPY BIRTHDAY • HAPPY BIRTHDAY •
+          Merry Christmas • Merry Christmas • Merry Christmas • Merry Christmas
+          • Merry Christmas • Merry Christmas •
         </div>
       </div>
     </div>
 
     <button id="lego-btn" class="lego-button">Lego tutorial</button>
+
+    <!-- Modal chọn kiểu Lego -->
+    <div id="lego-modal" class="lego-modal">
+      <div class="lego-modal-content">
+        <h2 class="modal-title">Choose the lego</h2>
+        <div class="lego-cards">
+          <div class="lego-card" data-shape="I">
+            <img src="assets/images/lego-I.png" alt="Lego I" />
+            <div class="card-label">I</div>
+          </div>
+          <div class="lego-card" data-shape="L">
+            <img src="assets/images/lego-L.png" alt="Lego L" />
+            <div class="card-label">L</div>
+          </div>
+          <div class="lego-card" data-shape="U">
+            <img src="assets/images/lego-U.png" alt="Lego U" />
+            <div class="card-label">U</div>
+          </div>
+          <div class="lego-card" data-shape="F">
+            <img src="assets/images/lego-F.png" alt="Lego F" />
+            <div class="card-label">F</div>
+          </div>
+        </div>
+        <button class="modal-close">×</button>
+      </div>
+    </div>
 
     <div id="pdf-overlay" class="overlay hidden">
       <iframe id="pdf-frame" src=""></iframe>

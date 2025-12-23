@@ -2,9 +2,14 @@
   "people": [
     {
       "id": "123451211",
-      "name": "Ly Thị Ngô",
-      "imagePath": "assets/images/lyngo.png",
-      "pdfPath": "assets/pdfs/mz166.pdf"
+      "name": "Quân mập",
+      "imagePath": "assets/images/quan.png",
+      "pdfPaths": {
+        "I": "assets/pdfs/lego-I.pdf",
+        "L": "assets/pdfs/lego-L.pdf",
+        "U": "assets/pdfs/lego-U.pdf",
+        "F": "assets/pdfs/lego-F.pdf"
+      }
     }
   ]
 }
